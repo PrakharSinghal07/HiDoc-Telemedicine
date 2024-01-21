@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiDoc - Virtual Doctor Appointments</title>
+    <link rel="icon" href="favicon (1).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/heroes/hero-1/assets/css/hero-1.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top">
+        <section class="header">
+            <div class="container ps-5">
+                <nav class="pt-3">
+                    <div class=" d-flex flex-wrap ">
+                        <ul class="nav me-auto">
+                            <li class="nav-item"><a style="color: black; font-weight: bold;" href="#home"
+                                    class="nav-link ps-0 pe-2">Home</a></li>
+                            <li class="nav-item"><a style="color: black; font-weight: bold;" href="#feat"
+                                    class="nav-link px-2">Features</a></li>
+                            <li class="nav-item"><a style="color: black; font-weight: bold;" href="#book-an-appointment"
+                                    class="nav-link px-2">Book-Appointment</a></li>
+                            <li class="nav-item"><a style="color: black; font-weight: bold;" href="#price"
+                                    class="nav-link px-2">Pricing</a></li>
+                            <li class="nav-item"><a style="color: black; font-weight: bold;" href="#contact"
+                                    class="nav-link nnn">Contact us</a></li>
+                        </ul>
+                        <ul class="nav">
+                            <button type="button" class="btn btn-outline-light login ">Login</button>
+                            <button type="button" class="btn btn-dark mx-2">Sign up</button>
+                        </ul>
+                    </div>
+                </nav>
+                <header class="py-3">
+                    <div class="container d-flex flex-wrap justify-content-center ps-0">
+                        <a href="/"
+                            class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="32px" fill="currentColor"
+                                class="bi bi-heart-pulse" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857q.09.083.176.171a3 3 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01zM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5" />
+                                <path
+                                    d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162z" />
+                            </svg>
+                            <h1 class="fs-1 ms-2">HiDoc</h1>
+                        </a>
+                        <form class="col-12 col-lg-3 mb-3 mb-lg-0" role="search">
+                            <input type="search" class="form-control" placeholder="Search for Doctors, Hospitals etc..."
+                                aria-label="Search">
+                        </form>
+                    </div>
+                </header>
+        </section>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="col-xxl-12 px-4 pt-4">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-0">
+                        <div class="col-8 col-sm-8 col-lg-6">
+                            <img src="images/—Pngtree—cartoon doctor hand painted female_4450933.png"
+                                class="d-block mx-auto patient" alt="doctor image" height="400px" loading="lazy">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Transforming Healthcare,<br>
+                                Anytime,
+                                Anywhere</h2>
+                            <p class="intro">Your journey to better health starts here. Experience the convenience of
+                                telemedicine with our expert healthcare professionals.</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="feat" class="features bg">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch gx-4 py-5">
+                <div class="col">
+                    <div class="card rounded-4 h-100 text-bg-light">
+                        <img src="images/medical-teleconsultation-sick-patient-home.jpg" class="card-img-top" alt="video confererence"
+                            height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Instant Video Consultation</h3>
+                            <p class="card-text ps-4 mt-3">Connect within 50 secs</p>
+                            <a href="#book-an-appointment" class="btn btn-dark ms-4 mt-2">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card rounded-4 h-100 text-bg-light">
+                        <img src="images/usman-yousaf-pTrhfmj2jDA-unsplash.jpg" class="card-img-top" alt="doctor-image"
+                            height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Find Doctors near you</h3>
+                            <p class="card-text ps-4 mt-3">Confirmed Appointments</p>
+                            <a href="#" class="btn btn-dark ms-4 mt-2">Find Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card rounded-4 h-100 text-bg-light">
+                        <img src="images/christine-sandu-jwWtZrm67VI-unsplash.jpg" class="card-img-top" alt="medicine-image"
+                            height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Get Medicines</h3>
+                            <p class="card-text ps-4 mt-3">Essentials within your doorstep</p>
+                            <a href="#" class="btn btn-dark ms-4 mt-2">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="how-it-works bg py-5">
+        <div class="container">
+            <h3 class="mb-5">Your Journey to Better Health in Three Simple Steps : </h3>
+            <div class="row">
+                <div class="col-lg-4 pe-5">
+                    <div class="step">
+                        <img class="steps" src="images/sign-up.jpg" alt="Step 1" height="200">
+                        <h3>1. Sign Up</h3>
+                        <p class="step-description">Create an account to access our telemedicine platform. It's
+                            quick and easy.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 pe-5">
+                    <div class="step">
+                        <img class="steps" src="images/appointment.jpg" alt="Step 2" height="200">
+                        <h3>2. Schedule Appointment</h3>
+                        <p class="step-description">Choose a convenient time for your virtual consultation with our
+                            healthcare professionals.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="step">
+                        <img class="steps" src="images/specialist.jpg" alt="Step 3" height="200">
+                        <h3>3. Connect with a Specialist</h3>
+                        <p class="step-description">Join the virtual session through our secure platform and consult
+                            with our experienced specialists.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <section id="book-an-appointment" class="book-appointment animate">
+        <div class="container border-bottom border-dark ">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch gx-4 py-5">
+                <div class="col mb-4">
+                    <div class="card rounded-4 h-100 text-bg-primary">
+                        <img src="images/dentist.jpg" class="card-img-top" alt="dentist-image" height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Dentist</h3>
+                            <p class="card-text ps-4 mt-3">Connect with dentist for any type of teething troubles. </p>
+                            <a href="#" class="btn btn-dark ms-4 mt-2">Consult Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card rounded-4 h-100 text-bg-primary">
+                        <img src="images/gynecologist.jpg" class="card-img-top" alt="..." height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Gynecologist</h3>
+                            <p class="card-text ps-4 mt-3">Explore for women's health, pregnency and infertility
+                                treatments</p>
+                            <a href="#" class="btn btn-dark ms-4 mt-2">Consult Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card rounded-4 h-100 text-bg-light">
+                        <img src="images/dietitian.jpg" class="card-img-top" alt="dietitian-image" height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Dietitian</h3>
+                            <p class="card-text ps-4 mt-3">Get guidance on eating right and weight management</p>
+                            <a href="#" class="btn btn-outline-dark ms-4 mt-2">Consult Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card rounded-4 h-100 text-bg-light">
+                        <img src="images/physiotherapist.jpg" class="card-img-top" alt="Physiotherapist-image" height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Physiotherapist</h3>
+                            <p class="card-text ps-4 mt-3">Pulled a muscle? Get it treated by a trained Physiotherapist
+                            </p>
+                            <a href="#" class="btn btn-outline-dark ms-4 mt-2">Consult Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card rounded-4 h-100 text-bg-primary">
+                        <img src="images/cardiologist.jpg" class="card-img-top" alt="Cardiologist-image" height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Cardiologist</h3>
+                            <p class="card-text ps-4 mt-3">Caring for Hearts, Anywhere You Are – Your Health, Our
+                                Priority!</p>
+                            <a href="#" class="btn btn-dark ms-4 mt-2">Consult Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card rounded-4 h-100 text-bg-primary">
+                        <img src="images/neurologist.jpg" class="card-img-top" alt="Neurologist-image" height="250">
+                        <div class="card-body">
+                            <h3 class="card-title ps-4">Neurologist</h3>
+                            <p class="card-text ps-4 mt-3">Connecting Minds, Bridging Distances – Expert Neurocare at
+                                Your Fingertips!</p>
+                            <a href="#" class="btn btn-dark ms-4 mt-2">Consult Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="mid">
+        <section id="price" class="pricing">
+            <div class="container">
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+                    <p class="fs-5 text-body-secondary">Elevate Your Healthcare Experience with Our Tailored Plans.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Essential Care</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$19.99<small
+                                        class="text-body-secondary fw-light">/mo</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Virtual Consultations: Up to 3 sessions per month</li>
+                                    <li>Access to General Practitioners</li>
+                                    <li>Prescription Renewals</li>
+                                    <li>Appointment Reminders</li>
+                                    <li>Secure Messaging</li>
+                                    <li>Chatbot access</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for
+                                    free</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Comprehensive Health</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$39.99<small
+                                        class="text-body-secondary fw-light">/mo</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Unlimited Virtual Consultations</li>
+                                    <li>Access to Specialists</li>
+                                    <li>24/7 Health Monitoring</li>
+                                    <li>Annual Health Check-up</li>
+                                    <li>Prescription Management</li>
+                                    <li>Secure Video Conferencing</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Family Wellness</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$59.99<small
+                                        class="text-body-secondary fw-light">/mo</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>All Features from Standard Plan</li>
+                                    <li>Family Coverage (Up to 4 family members)</li>
+                                    <li>Pediatric Care</li>
+                                    <li>Mental Health Support</li>
+                                    <li>Health and Wellness Webinars</li>
+                                    <li>Priority Scheduling</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-4">
+                        <img class="rounded-circle mb-4" src="images/rating person1.jpg" alt="Benjamin Miller" height="140px"
+                            width="140px">
+                        <h2 class="fw-normal">Benjamin Miller</h2>
+                        <p>“Using this telemedicine platform has been a game-changer for me. The convenience of
+                            scheduling
+                            appointments from my home and consulting with a healthcare professional virtually has saved
+                            me
+                            so much time. The doctors are highly qualified, and the entire process is seamless. I highly
+                            recommend it!”</p>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="rounded-circle mb-4" src="images/rating person2.jpg" alt="Michael Davis" height="140px"
+                            width="170px">
+                        <h2 class="fw-normal">Michael Davis</h2>
+                        <p>“I was initially skeptical about virtual consultations, but after my first experience with
+                            this
+                            telemedicine service, I am a believer. The doctors were attentive, and the video sessions
+                            felt
+                            just as personal as an in-person visit. Plus, the ability to access my health information
+                            online
+                            is incredibly convenient.”</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="rounded-circle mb-4" src="images/rating person3.jpg" alt="Emily Thompson" height="140px"
+                            width="170px">
+                        <h2 class="fw-normal">Emily Thompson</h2>
+                        <p>“As a busy parent, juggling work and family commitments, having the option for virtual
+                            pediatric
+                            consultations has been a lifesaver. The platform is user-friendly, and the doctors have been
+                            great with my kids. Being able to consult with a healthcare professional without leaving
+                            home
+                            brings peace of mind.”</p>
+
+                    </div>
+                </div>
+        </section>
+    </div>
+    <section id="contact" class="contact-us pb-4 border-bottom border-dark">
+        <div class="container">
+
+            <h2 class="h1-responsive font-weight-bold pt-4 mb-4">Contact us</h2>
+
+            <p class=" w-responsive mb-5">Do you have any questions? Please do not hesitate to
+                contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+
+            <div class="row">
+
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form action="mailto:hidocteam@gmail.com" method="post" enctype="text/plain">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-3">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-3">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-3">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+                                <div class="md-form mb-3">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="text-md-left">
+                            <input type="submit" value="Send" class="btn btn-dark px-4">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Rajasthan, India</p>
+                        </li>
+
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+ 01 234 567 89</p>
+                        </li>
+
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>hidocteam@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer animate">
+        <div class="container">
+            <footer class="py-3 py-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="#feat" class="nav-link px-2 text-body-secondary">Features</a></li>
+                    <li class="nav-item"><a href="#book-an-appointment"
+                            class="nav-link px-2 text-body-secondary">Book-Appointment</a></li>
+                    <li class="nav-item"><a href="#price" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Contact us</a>
+                    </li>
+                </ul>
+                <p class="text-center text-body-secondary">© 2024 HiDoc, Inc</p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

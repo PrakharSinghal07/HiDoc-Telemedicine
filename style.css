@@ -1,0 +1,145 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.section {
+    margin: 0;
+}
+.head{
+    color: white;
+}
+
+.top{
+    background: linear-gradient(90deg, rgb(0, 212, 255), rgba(0, 212, 255, 1), rgba(121, 177, 5, 1));
+    background-size: 180% 180%;
+    animation: gradient-animation 7s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.features{
+    background: rgb(249, 245, 245);
+
+}
+.how-it-works{
+    background: rgb(249, 245, 245);
+
+}
+.testimonial{
+    font-weight: bold;
+    /* background-color: rgba(221,223,223,1); */
+}
+.contact-us{
+    /* background: linear-gradient(300deg, rgb(173, 239, 255), rgb(188, 239, 255), rgb(222, 236, 195));
+    background-size: 180% 180%; */
+    background: rgb(249, 245, 245);
+
+    
+}
+.footer{
+    /* background: linear-gradient(300deg, rgb(173, 239, 255), rgb(188, 239, 255), rgb(210, 219, 180));
+    background-size: 180% 180%; */
+    background: rgb(249, 245, 245);
+
+
+    /* animation: gradient-animation 7s ease infinite; */
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.book-appointment{
+    background: rgb(104, 205, 181);
+    background: linear-gradient(0deg, rgba(104,205,181,1) 0%, rgba(221,223,223,1) 100%);
+}
+.mid{
+    background: rgb(221,223,223);
+
+    background: linear-gradient(0deg, rgba(221,223,223,1) 0%, rgba(104,205,181,1) 100%);
+
+
+}
+
+.intro {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 600;
+}
+
+.card-text {
+    font-weight: 500;
+}
+
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.steps {
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+hr{
+    margin: 0px;
+}
+.step-description{
+    font-weight: 600;
+
+}
+.card{
+    
+    border:none;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:16px;
+}
+
+
+.ratings i{
+    color:blue;
+}
+
+#contact{
+    font-weight: bolder;
+}
+.footer{
+    font-weight: 500;
+}
+#price{
+    font-weight: bolder;
+    /* background-color: #45FFCA; */
+}
+
+
+@media (max-width : 339px){
+    .nnn{
+        padding-left: 0px;
+    }
+    
+}
+@media (min-width: 340px){
+    .nnn{
+        padding-left: 8px;
+    }
+}
+
+   
